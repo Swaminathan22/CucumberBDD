@@ -26,12 +26,12 @@
       <scope>test</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-	<dependency>
+	<!--<dependency>
 	    <groupId>org.testng</groupId>
 	    <artifactId>testng</artifactId>
 	    <version>7.10.2</version>
 	    <scope>test</scope>
-	</dependency>
+	</dependency> -->
 	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 	<dependency>
     <groupId>io.cucumber</groupId>
