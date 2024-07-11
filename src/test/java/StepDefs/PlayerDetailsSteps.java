@@ -56,7 +56,7 @@ public class PlayerDetailsSteps {
         overlayInfoButton.click();*/
 		Actions act = new Actions(driver);
 		act.moveToElement(driver.findElement(By.cssSelector("a[title='"+menu+"']"))).build().perform();
-		driver.findElement(By.xpath("//span[contains(text(),'" + section + "')]")).click();
+		driver.findElement(By.xpath("(//span[contains(text(),'" + section + "')])[2]")).click();
 		// handleOverlay();
 
 	}
