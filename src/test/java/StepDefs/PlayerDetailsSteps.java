@@ -83,7 +83,7 @@ public class PlayerDetailsSteps {
 		List<String> myDetails = new ArrayList<String>();
 		myDetails.add("Ravichandran Ashwin");
 		myDetails.add("September 17, 1986, Madras (now Chennai), Tamil Nadu");
-		myDetails.add("37y 288d");
+		myDetails.add("37y 298d");
 		myDetails.add("Right hand Bat");
 		myDetails.add("Right arm Offbreak");
 		myDetails.add("Bowling Allrounder");
