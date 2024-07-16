@@ -18,3 +18,5 @@ Install Dependencies mvn clean install
 Directory Structure src/main/java: Contains the application code. src/test/java: Contains the test code. src/test/resources: Contains the feature files for Cucumber
 
 Common Commands Run All Tests: mvn test Run a Specific Test Class: mvn -Dtest= test Run Cucumber Tests with Tags: mvn test -Dcucumber.options="--tags @Smoke"
+
+For newer version we can use --- mvn test -D cucumber.filter.tags="@Smoke or @Regression"
